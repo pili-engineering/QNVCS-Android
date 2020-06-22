@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/rtc_backgroundColor">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/rtc_background_niu" />
+
+    <EditText
+        android:id="@+id/user_name_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/rtc_oval_edit_text_background"
+        android:hint="@string/rtc_user_name_text_hint"
+        android:paddingLeft="15dp"
+        android:paddingTop="8dp"
+        android:paddingRight="15dp"
+        android:paddingBottom="8dp"
+        android:textColor="@color/rtc_textColor"
+        android:textColorHint="@color/rtc_textColor"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/user_name_tips"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/user_name_edit_text"
+        android:layout_alignStart="@id/user_name_edit_text"
+        android:layout_alignEnd="@id/user_name_edit_text"
+        android:layout_marginTop="15dp"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:text="@string/rtc_user_name_tips"
+        android:textColor="@color/rtc_textColor" />
+
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/user_name_tips"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/rtc_oval_btn_background"
+        android:gravity="center"
+        android:onClick="onClickNext"
+        android:text="@string/rtc_save_user_name"
+        android:textColor="@color/rtc_textColor"
+        android:textSize="15sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <View
+            android:id="@+id/dividing_line"
+            android:layout_width="1dp"
+            android:layout_height="28dp"
+            android:layout_centerInParent="true"
+            android:layout_margin="8dp"
+            android:background="@color/rtc_white" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_margin="8dp"
+            android:layout_toStartOf="@id/dividing_line"
+            android:src="@mipmap/rtc_ic_niu_logo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_margin="8dp"
+            android:layout_toEndOf="@id/dividing_line"
+            android:text="@string/rtc_niu_conference"
+            android:textColor="@color/rtc_white" />
+    </RelativeLayout>
+
+</RelativeLayout>

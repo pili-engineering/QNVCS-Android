@@ -1,0 +1,56 @@
+<resources>
+    <string name="player_app_name">牛直播</string>
+    <string name="player_setting_title">直播高级设置</string>
+    <string name="player_protocol_tips">传输协议：</string>
+    <string name="player_QUIC_protocol">QUIC/RTMP</string>
+    <string name="player_TCP_protocol">TCP/RTMP</string>
+    <string name="player_codec_mode_tips">编(解)码方式：</string>
+    <string name="player_codec_sw">软编(解)</string>
+    <string name="player_codec_hw">硬编(解)</string>
+    <string name="player_video_quality_tips">视频质量：</string>
+    <string name="player_codec_size_tips">编码尺寸：</string>
+    <string name="player_prebuilt">预设</string>
+    <string name="player_custom">自定义</string>
+    <string name="player_codec_control_tips">编码控制：</string>
+    <string name="player_quality_priority">质量优先</string>
+    <string name="player_bitrate_priority">码率优先</string>
+    <string name="player_auto_bitrate_tips">自适应码率：</string>
+    <string name="player_debug_mode_tips">Debug 模式：</string>
+    <string name="player_enable_text">开启</string>
+    <string name="player_disable_text">关闭</string>
+    <string name="player_fps">FPS：</string>
+    <string name="player_bitrate">码率：</string>
+    <string name="player_gop">最大关键帧率：</string>
+    <string name="player_width">Width: </string>
+    <string name="player_height">Height: </string>
+    <string name="player_cache_tips">播放器缓存大小(ms)：</string>
+    <string name="player_default_cache">默认缓存：</string>
+    <string name="player_max_cache">最大缓存：</string>
+    <string name="player_player_mode_hint">房间名(不支持特殊字符)或推流地址</string>
+    <string name="player_player_mode_button_text">创建直播</string>
+    <string name="player_playing_mode_hint">房间名(不支持特殊字符)或播放地址</string>
+    <string name="player_playing_mode_button_text">观看直播</string>
+    <string name="player_cannot_toggle_light_in_front">前置下无法打开闪光灯！！！</string>
+    <string name="player_null_room_name_toast">房间名不能为空！！！</string>
+    <string name="player_failed_open_camera">无法打开摄像头！！!</string>
+    <string name="player_failed_open_microphone">无法打开麦克风！！!</string><![CDATA[
+    >
+    ]]>
+    <string name="player_player_io_error">网络连接错误！！!</string>
+    <string name="player_playing_io_error">播放出错：请确认是否还在推流中！！！</string>
+    <string name="player_network_disconnected">网络连接断开！！!</string>
+    <string name="player_open_failed">播放地址打开失败！！！</string>
+    <string name="player_get_url_failed">地址获取失败，请检查网络！！！</string>
+    <string name="player_illegal_publish_url">非法房间名或推流地址！！！</string>
+    <string name="player_illegal_play_url">非法播放地址！！！</string>
+    <string name="player_reconnecting">正在重连...</string>
+    <string name="player_disconnected">连接断开</string>
+    <string name="player_player_log_text">推流协议：%1$s\n推流分辨率：%2$d x %3$d\n视频码率：%4$d kbps\n音频码率：%5$d kbps\n视频帧率：%6$d fps\n音频帧率：%7$d fps</string>
+    <string name="player_playing_log_text">卡顿次数：%1$d\n分辨率：%2$d x %3$d\n视频码率：%4$d kbps\n视频帧率：%5$d fps</string>
+    <string name="player_buffering">Buffering</string>
+    <string name="player_copy_to_clipboard">房间名：%1$s 复制到剪贴板</string>
+    <string name="player_android_auto_update_download_progress">正在下载:%1$d%%</string>
+    <string name="player_agree">同意</string>
+    <string name="player_niuliving_protocol">牛直播用户协议</string>
+    <string name="player_niuliving_protocol_tips">需同意 NiuLiving 用户协议</string>
+</resources>

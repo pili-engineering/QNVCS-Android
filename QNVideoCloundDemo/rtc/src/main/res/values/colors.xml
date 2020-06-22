@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="rtc_white">#FFFFFF</color>
+    <color name="rtc_ovalBtnBackground">#34AADC</color>
+    <color name="rtc_backgroundColor">#151515</color>
+    <color name="rtc_textColor">#FAFAFA</color>
+    <color name="rtc_editTextBackground">#49494B</color>
+    <color name="rtc_versionCodeColor">#57575A</color>
+    <color name="rtc_blue">#FF588CEE</color>
+    <color name="rtc_purple">#FFAA66CC</color>
+    <color name="rtc_yellow">#F8CF5E</color>
+    <color name="rtc_green">#4FA16A</color>
+    <color name="rtc_red">#CD5849</color>
+    <color name="rtc_cyanBlue">#00FFFF</color>
+    <color name="rtc_popupWindowBackground">#353535</color>
+
+    <integer-array name="rtc_audioBackgroundColors">
+        <item>@color/rtc_blue</item>
+        <item>@color/rtc_purple</item>
+        <item>@color/rtc_yellow</item>
+        <item>@color/rtc_green</item>
+        <item>@color/rtc_red</item>
+        <item>@color/rtc_cyanBlue</item>
+    </integer-array>
+</resources>

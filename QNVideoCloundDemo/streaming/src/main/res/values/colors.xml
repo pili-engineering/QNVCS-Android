@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="streaming_colorPrimary">#3F51B5</color>
+    <color name="streaming_colorPrimaryDark">#303F9F</color>
+    <color name="streaming_colorAccent">#0EB7FF</color>
+    <color name="streaming_white">#FFFFFF</color>
+    <color name="streaming_black">#000000</color>
+    <color name="streaming_backgroundStartColor">#0EB7FF</color>
+    <color name="streaming_backgroundEndColor">#0681FF</color>
+    <color name="streaming_popWindowBackgroundColor">#F3F3F3</color>
+    <color name="streaming_logTextBackground">#49494B</color>
+    <color name="streaming_transparentBackground">#0000</color>
+</resources>
