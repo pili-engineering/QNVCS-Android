@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="player_colorPrimary">#3F51B5</color>
+    <color name="player_colorPrimaryDark">#303F9F</color>
+    <color name="player_colorAccent">#0EB7FF</color>
+    <color name="player_white">#FFFFFF</color>
+    <color name="player_black">#000000</color>
+    <color name="player_backgroundStartColor">#0EB7FF</color>
+    <color name="player_backgroundEndColor">#0681FF</color>
+    <color name="player_popWindowBackgroundColor">#F3F3F3</color>
+    <color name="player_logTextBackground">#49494B</color>
+    <color name="player_transparentBackground">#0000</color>
+</resources>

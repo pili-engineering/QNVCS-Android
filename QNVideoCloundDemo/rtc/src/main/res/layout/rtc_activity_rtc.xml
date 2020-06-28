@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/rtc_backgroundColor">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/rtc_background_niu" />
+
+    <ImageButton
+        android:id="@+id/setting_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="16dp"
+        android:background="@color/rtc_backgroundColor"
+        android:onClick="onClickToSetting"
+        android:src="@mipmap/rtc_setting" />
+
+    <EditText
+        android:id="@+id/room_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/setting_btn"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/rtc_oval_edit_text_background"
+        android:hint="@string/rtc_room_text_hint"
+        android:paddingLeft="15dp"
+        android:paddingTop="8dp"
+        android:paddingRight="15dp"
+        android:paddingBottom="8dp"
+        android:textColor="@color/rtc_textColor"
+        android:textColorHint="@color/rtc_textColor"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/tips_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/room_edit_text"
+        android:layout_alignStart="@id/room_edit_text"
+        android:layout_alignEnd="@id/room_edit_text"
+        android:layout_marginTop="15dp"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:text="@string/rtc_room_tips"
+        android:textColor="@color/rtc_textColor" />
+
+    <com.qiniu.droid.video.cloud.rtc.ui.RadioGroupFlow
+        android:id="@+id/capture_mode_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tips_text_view"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="30dp"
+        android:orientation="horizontal"
+        android:paddingStart="0dp"
+        android:paddingTop="2dp"
+        android:paddingEnd="0dp"
+        android:paddingBottom="2dp">
+
+        <RadioButton
+            android:id="@+id/camera_capture_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:shadowColor="@color/rtc_blue"
+            android:text="@string/rtc_camera_capture"
+            android:textColor="@color/rtc_textColor" />
+
+        <RadioButton
+            android:id="@+id/audio_capture_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:shadowColor="@color/rtc_blue"
+            android:text="@string/rtc_audio_capture"
+            android:textColor="@color/rtc_textColor" />
+
+        <RadioButton
+            android:id="@+id/screen_capture_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:shadowColor="@color/rtc_blue"
+            android:text="@string/rtc_screen_capture"
+            android:textColor="@color/rtc_textColor" />
+
+        <RadioButton
+            android:id="@+id/muti_track_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:shadowColor="@color/rtc_blue"
+            android:text="@string/rtc_muti_track"
+            android:textColor="@color/rtc_textColor" />
+
+    </com.qiniu.droid.video.cloud.rtc.ui.RadioGroupFlow>
+
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/capture_mode_button"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/rtc_oval_btn_background"
+        android:gravity="center"
+        android:onClick="onClickConference"
+        android:text="@string/rtc_join_room"
+        android:textColor="@color/rtc_textColor"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/save_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="@string/rtc_live_tips"
+        android:textColor="@color/rtc_white" />
+
+</RelativeLayout>

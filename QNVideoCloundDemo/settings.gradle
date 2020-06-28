@@ -1,0 +1,6 @@
+include ':bytedance'
+include ':rtc'
+include ':player'
+include ':streaming'
+include ':app'
+rootProject.name = "QNVideoCloundDemo"
