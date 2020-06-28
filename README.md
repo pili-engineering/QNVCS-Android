@@ -6,17 +6,6 @@
 
 ## 基本功能
 
-<style>
-table th:first-of-type {
-	width: 100px;
-}
-table th:nth-of-type(2) {
-	width: 100px;
-}
-table th:nth-of-type(3) {
-	width: 600px;
-}
-</style>
 
 
 <table>
